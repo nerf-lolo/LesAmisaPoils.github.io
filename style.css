@@ -1,0 +1,148 @@
+* {
+  font-family: "Cabin", sans-serif;
+  font-family: "Cairo", sans-serif;
+}
+
+body {
+  background-color: floralwhite;
+}
+.container {
+  border-bottom: 3px solid black;
+}
+p {
+  text-align: justify;
+}
+
+li {
+  list-style-type: none;
+}
+
+.btn-container a {
+  margin-top: 25px;
+  border: 2px solid black;
+  height: 80px;
+}
+
+.carousel-caption p {
+  text-align: center;
+}
+#form-contact {
+  background-color: ghostwhite;
+}
+
+/* ***** MOBILE FIRST ***** */
+
+@media screen and (max-width: 576px) {
+  .logo {
+    height: 40px;
+  }
+  .navbar-brand {
+    visibility: hidden;
+  }
+  .social-media > a {
+    font-size: 20px;
+    color: rgb(43, 43, 83);
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .animals-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .carousel-item img {
+    height: 60vh;
+  }
+  .social-media > a {
+    font-size: 20px;
+    color: rgb(43, 43, 83);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-item img {
+    height: 75vh;
+  }
+  .text-about {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .aboutme p {
+    margin-left: 30px;
+  }
+  .event-article {
+    display: flex;
+  }
+  .careanimals {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .careanimals img {
+    margin-left: 20px;
+  }
+  .event-article img {
+    width: 50%;
+    height: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  .card {
+    width: 19rem !important;
+  }
+  .form {
+    width: 75%;
+    margin: auto;
+  }
+  .social-media > a {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-brand {
+    margin-left: 20px;
+  }
+  .carousel-item img {
+    height: 80vh;
+  }
+
+  .event-article img {
+    max-width: 396px;
+  }
+  .social-media > a {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #carouselExampleIndicators {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .carousel-item img {
+    border-radius: 10px;
+  }
+  .careanimals {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .form {
+    width: 50%;
+  }
+  .social-media > a {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .carousel-caption {
+    font-size: 1.3rem;
+  }
+  .container {
+    width: 1150px;
+  }
+  .social-media > a {
+    font-size: 45px;
+  }
+}
